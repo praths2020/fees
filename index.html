@@ -129,6 +129,8 @@ input[type=text]{
   border: none;
 }
 
+
+
     
   </style>
 </head>
@@ -281,34 +283,35 @@ function closeNav() {
         <div class="container-fluid">
           
 
-<div class="card" style="background-color:#111 ; color: #fff;">
+<div class="card" style="background-color:#222 ; color: #fff;">
       <div class="card-block" style="margin-left: 10px;">
+
         <h4 style="display: inline-block; color: rgb(54,214,54);" ><b><u>Pay your fees online</u></h4></b>
 
-        <input disabled="true" style="border:none; display: inline-block; width: 30rem;float: right; font-size: 25px; color: white;  margin-right: -50px; background-color: #111;" type="text" name="schoolname" id="schoolname" class="form-control" placeholder="School name, state, city">
+        <input disabled="true" style="border:none; display: inline-block; width: 30rem;float: right; font-size: 25px; color: white;  margin-right: 10px; background-color: #222;" type="text" name="schoolname" id="schoolname" class="form-control" placeholder="School name, state, city">
     </div>
 </div>
-    <div class="card" style="background-color: #111; color: #fff;">
+    <div class="card" style="background-color: #222; color: #fff;padding: 25px;">
       <div class="card-block">
 
    <form>
     <label style="margin-right: 20px; margin-left: 25px;">Student details</label>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
+      <input style="background-color: #222;" type="text" class="form-control" placeholder="First name">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
+      <input style="background-color: #222; type="text" class="form-control" placeholder="Last name">
     </div>
   </div>
   <div class="form-row" style="margin-left: 20px; margin-right: 20px;">
     <div class="col" style="width: auto;">
-      <label>Reg./Roll no</label>
-      <input type="text" class="form-control" placeholder="City">
+      <label >Reg./Roll no</label>
+      <input style="background-color: #222; " type="text" class="form-control" placeholder="Reg./Roll no">
     </div>
     <div class="col" style="width: auto;">
     <label>Class</label>
-<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;"> 
+<select class="browser-default custom-select" style="background: #222;border: 2px solid #555!important;color: #fff;"> 
                   <option value="0">1st</option>
                   <option value="1">2nd</option>
                   <option value="2">3rd</option>
@@ -320,7 +323,7 @@ function closeNav() {
                </div>
     <div class="col" style="width: auto;">
 <label>Year</label>
-<select  class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;"> 
+<select  class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;color: #fff;"> 
                   <option value="0">Pre-Nursery</option>
                   <option value="1">Nursery</option>
                   <option value="2">LKG</option>
@@ -341,7 +344,7 @@ function closeNav() {
                   </div>
     <div class="col" style="width: auto;">
 <label>Choose month</label>
-<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;"> 
+<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;color: #fff;"> 
                   <option value="0">January</option>
                   <option value="1">February</option>
                   <option value="2">March</option>
@@ -360,23 +363,26 @@ function closeNav() {
   </div>
 <div class="form-row" style="margin-top: 40px; margin-left: 20px; margin-right: 20px;">
     <div class="col">
-      <input disabled="true" style="margin-top: 8px;width: 14rem; margin-left: 65%; height: 2.8rem;background-color: #111; color: #fff;"  type="text" name="amount" id="amount" class="form-control" placeholder="Amount"> 
+      <input disabled="true" style="margin-top: 8px;width: 14rem; margin-left: 65%; height: 2.8rem;background-color: #222; color: #fff;"  type="text" name="amount" id="amount" class="form-control" placeholder="Amount"> 
         </div>
     <div class="col" >
       <button type="button" class="btn btn-outline-success btn-lg " href="#" aria-label="submit" style="width: 14rem; margin-left: 5%; height: 2.8rem;margin-top: 8px;">
                   Pay Now
-                </button>
+                </button><br>
     </div>
   </div>
-
-
 </form>
+</div>
+</div>
 <br><br>
 <form>
-  <div class="row">
+  <div class="card" style="background-color: #222; padding: 20px;">
+    <h4 style="display: inline-block; color: rgb(54,214,54);" ><b><u>Other Fees</u></h4></b>
+  <div class="row" >
     <div class="col-4">
-<label>Other fees</label>
-<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;"> 
+
+<label style="color: #fff;">Other fees</label>
+<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;color: #fff;"> 
                   <option value="0">Annual Charge</option>
                   <option value="1">Exam Fee</option>
                   <option value="2">Program Fee</option>
@@ -389,8 +395,8 @@ function closeNav() {
               </select>     
                  </div>
     <div class="col-3">
-<label>Status</label>
-<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;"> 
+<label style="color: #fff;background-color: #222;">Status</label>
+<select class="browser-default custom-select"style="background: #222;border: 2px solid #555!important;color: #fff;"> 
                   <option value="0">Paid</option>
                   <option value="1">Due</option>
                   <option value="2">Fine</option>   
@@ -398,8 +404,8 @@ function closeNav() {
                 </div>
 
   <div class="col-3" style="width: auto;">
-<label style="color: #111;">kdfkd</label>
- <input disabled="true" style="background-color: #111; color: #fff;"  type="text" name="date" id="date" class="form-control" placeholder="Date and time"> 
+<label style="color: #222;">kdfkd</label>
+ <input disabled="true" style="background-color: #222; color: #fff;color: #fff;"  type="text" name="date" id="date" class="form-control" placeholder="Date and time"> 
                 </div>
 
   <div class="col" style="width: auto; margin-top: 25px;">
@@ -412,11 +418,9 @@ function closeNav() {
 
 
 </form>
-
-
-      </div>
-    </div>
 </div>
+
+  
 
   
 
